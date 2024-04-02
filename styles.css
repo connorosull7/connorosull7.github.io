@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.vcard-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #333;
+}
+
+.vcard-header {
+    background-color: #f9d6d5;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.vcard-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.vcard-info p {
+    margin: 10px 0;
+    line-height: 2; /* Added line height for spacing */
+}
+
+.vcard-info img {
+    vertical-align: middle; /* Aligns the icons with the text */
+    padding-right: 10px; /* Adds some space between the icon and text */
+    width: 24px; /* Sets the icon width to 24 pixels */
+    height: 24px; /* Sets the icon height to 24 pixels */
+}
+
+.vcard-about {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.vcard-footer {
+    padding: 20px;
+}
+
+.vcard-footer .social-link {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block; /* To allow margin to work on all sides */
+}
+
+.vcard-footer .social-link img {
+    vertical-align: middle; /* Aligns the icons with the text */
+    margin-right: 8px; /* Adds some space between the icon and text */
+    width: 24px; /* Sets the icon width to 24 pixels */
+    height: 24px; /* Sets the icon height to 24 pixels */
+}
+
+.vcard-footer .social-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .vcard-container {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .contact-button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .vcard-about, .vcard-info, .vcard-footer {
+        padding: 10px;
+    }
+}
